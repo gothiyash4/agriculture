@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About - GreenFarm</title>
+
+    <style>
+        *{
+            margin:0;
+            padding:0;
+            box-sizing:border-box;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        body{
+            background:#f4fff4;
+        }
+
+        /* NAVBAR */
+        header{
+            background:#2e7d32;
+            padding:15px 40px;
+            display:flex;
+            justify-content:space-between;
+            align-items:center;
+            color:white;
+        }
+
+        header h1{
+            font-size:28px;
+        }
+
+        nav a{
+            color:white;
+            text-decoration:none;
+            margin-left:25px;
+            font-size:18px;
+        }
+
+        nav a:hover{
+            color:yellow;
+        }
+
+        /* ABOUT SECTION */
+        .about{
+            padding:60px 40px;
+            text-align:center;
+        }
+
+        .about h2{
+            font-size:40px;
+            color:#2e7d32;
+            margin-bottom:20px;
+        }
+
+        .about p{
+            max-width:900px;
+            margin:auto;
+            font-size:18px;
+            line-height:1.7;
+        }
+
+        /* TEAM SECTION */
+        .team{
+            padding:60px 40px;
+            background:#e8f5e9;
+            text-align:center;
+        }
+
+        .team h2{
+            font-size:35px;
+            color:#2e7d32;
+            margin-bottom:30px;
+        }
+
+        .team-box{
+            display:flex;
+            justify-content:center;
+            gap:30px;
+            flex-wrap:wrap;
+        }
+
+        .member{
+            background:white;
+            width:220px;
+            padding:20px;
+            border-radius:10px;
+            box-shadow:0 4px 10px rgba(0,0,0,0.2);
+        }
+
+        .member img{
+            width:100%;
+            border-radius:50%;
+            height:200px;
+            object-fit:cover;
+        }
+
+        .member h3{
+            margin-top:10px;
+            color:#2e7d32;
+        }
+
+        footer{
+            background:#2e7d32;
+            color:white;
+            text-align:center;
+            padding:20px;
+            margin-top:40px;
+        }
+    </style>
+</head>
+
+<body>
+
+<!-- HEADER -->
+<header>
+    <h1>🌱 GreenFarm</h1>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="#">Services</a>
+        <a href="#">Contact</a>
+    </nav>
+</header>
+
+<!-- ABOUT -->
+<section class="about">
+    <h2>About Our Agriculture</h2>
+    <p>
+        GreenFarm is a modern agriculture platform that provides information about
+        smart farming, organic farming and new technology in agriculture.
+        Our goal is to help farmers increase production using modern methods,
+        AI technology and eco-friendly farming.
+    </p>
+</section>
+
+<!-- TEAM -->
+<section class="team">
+    <h2>Our Farmers Team</h2>
+
+    <div class="team-box">
+        <div class="member">
+            <img src="https://randomuser.me/api/portraits/men/32.jpg">
+            <h3>Ramesh Patel</h3>
+            <p>Organic Farmer</p>
+        </div>
+
+        <div class="member">
+            <img src="https://randomuser.me/api/portraits/women/44.jpg">
+            <h3>Sita Sharma</h3>
+            <p>Crop Expert</p>
+        </div>
+
+        <div class="member">
+            <img src="https://randomuser.me/api/portraits/men/65.jpg">
+            <h3>Arjun Singh</h3>
+            <p>Agri Engineer</p>
+        </div>
+    </div>
+</section>
+
+<footer>
+    <p>© 2026 GreenFarm | Agriculture Website</p>
+</footer>
+
+</body>
+</html>
