@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GreenFarm - Agriculture Website</title>
+
+    <style>
+        *{
+            margin:0;
+            padding:0;
+            box-sizing:border-box;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        body{
+            background:#f4fff4;
+        }
+
+        /* NAVBAR */
+        header{
+            background:#2e7d32;
+            padding:15px 40px;
+            display:flex;
+            justify-content:space-between;
+            align-items:center;
+            color:white;
+        }
+
+        header h1{
+            font-size:28px;
+        }
+
+        nav a{
+            color:white;
+            text-decoration:none;
+            margin-left:25px;
+            font-size:18px;
+            transition:0.3s;
+        }
+
+        nav a:hover{
+            color:yellow;
+        }
+
+        /* HERO SECTION */
+        .hero{
+            height:90vh;
+            background:url("https://images.unsplash.com/photo-1500382017468-9049fed747ef") no-repeat center/cover;
+            display:flex;
+            justify-content:center;
+            align-items:center;
+            text-align:center;
+            color:white;
+        }
+
+        .hero h2{
+            font-size:50px;
+            background:rgba(0,0,0,0.5);
+            padding:20px;
+            border-radius:10px;
+        }
+
+        /* ABOUT */
+        .about{
+            padding:60px 40px;
+            text-align:center;
+        }
+
+        .about h2{
+            font-size:35px;
+            color:#2e7d32;
+            margin-bottom:20px;
+        }
+
+        .about p{
+            font-size:18px;
+            max-width:800px;
+            margin:auto;
+            line-height:1.6;
+        }
+
+        /* SERVICES */
+        .services{
+            padding:60px 40px;
+            background:#e8f5e9;
+            text-align:center;
+        }
+
+        .services h2{
+            font-size:35px;
+            color:#2e7d32;
+            margin-bottom:40px;
+        }
+
+        .service-box{
+            display:flex;
+            justify-content:center;
+            gap:30px;
+            flex-wrap:wrap;
+        }
+
+        .card{
+            background:white;
+            padding:25px;
+            width:260px;
+            border-radius:10px;
+            box-shadow:0 4px 10px rgba(0,0,0,0.2);
+            transition:0.3s;
+        }
+
+        .card:hover{
+            transform:translateY(-10px);
+        }
+
+        .card h3{
+            color:#2e7d32;
+            margin-bottom:10px;
+        }
+
+        /* FOOTER */
+        footer{
+            background:#2e7d32;
+            color:white;
+            text-align:center;
+            padding:20px;
+            margin-top:30px;
+        }
+    </style>
+</head>
+
+<body>
+
+<!-- HEADER -->
+<header>
+    <h1>🌱 GreenFarm</h1>
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#">Services</a>
+        <a href="#">Products</a>
+        <a href="#">Contact</a>
+    </nav>
+</header>
+
+<!-- HERO -->
+<section class="hero">
+    <h2>Welcome to Smart Agriculture Website</h2>
+</section>
+
+<!-- ABOUT -->
+<section class="about">
+    <h2>About Agriculture</h2>
+    <p>
+        Agriculture is the backbone of our country. Modern technology and AI are
+        transforming farming into smart agriculture. We provide information about
+        organic farming, smart irrigation, crop management and new technologies.
+    </p>
+</section>
+
+<!-- SERVICES -->
+<section class="services">
+    <h2>Our Services</h2>
+
+    <div class="service-box">
+        <div class="card">
+            <h3>🌾 Organic Farming</h3>
+            <p>Learn organic farming techniques for healthy crops.</p>
+        </div>
+
+        <div class="card">
+            <h3>🚜 Modern Equipment</h3>
+            <p>Use modern tools and machines for better production.</p>
+        </div>
+
+        <div class="card">
+            <h3>💧 Smart Irrigation</h3>
+            <p>Save water with smart irrigation technology.</p>
+        </div>
+    </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+    <p>© 2026 GreenFarm Agriculture Website | Made by You</p>
+</footer>
+
+</body>
+</html>
